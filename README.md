@@ -5,6 +5,21 @@ transport graph. The idea is to protect bottleneck edges, remove redundant
 capacity, and grow new connections across weak cuts while keeping the parameter
 budget fixed.
 
+## Results at a Glance
+
+On one epoch-20 CIFAR-100 ResNet-18 checkpoint (54.62% selection accuracy),
+structured `conv1` deletion tests found that marginal flow ranked catastrophic
+groups better than magnitude (AUROC 0.959 vs. 0.934; average precision 0.674
+vs. 0.382), but worse than Group Fisher (0.996 AUROC; 0.944 average precision).
+A frozen `conv2` holdout likewise found only a +0.0134 AUROC gain for a
+Fisher-flow hybrid over Fisher, with a 95% interval of [-0.0089, +0.0446],
+missing the predeclared +0.05 gate. Rescaled spectral sampling improved
+50%-sparse accuracy to 36.68% versus Fisher's 31.36%, but regressed at 25% and
+75% sparsity and failed the multi-sparsity gate. These single-checkpoint
+development results do not support proceeding to dynamic Cut-to-Grow training;
+they are retained as negative evidence for redesign rather than a positive
+pruning claim.
+
 Current status: the graph solver, CIFAR ResNet-18, deterministic dense trainer,
 transport monitor, branch-local min-cut scorer, channel-deletion probe, and
 score-correlation report are implemented and tested. The first declared
