@@ -1,0 +1,40 @@
+manifest_version: 1
+declared_at: "2026-08-24"
+
+datasets:
+  cifar10:
+    role: "instrumentation_debugging"
+    source: "torchvision.datasets.CIFAR10"
+    upstream: "https://www.cs.toronto.edu/~kriz/cifar.html"
+    destination: "pull/raw"
+    automatic: true
+  cifar100:
+    role: "development_and_method_selection"
+    source: "torchvision.datasets.CIFAR100"
+    upstream: "https://www.cs.toronto.edu/~kriz/cifar.html"
+    huggingface_mirror: "uoft-cs/cifar100"
+    huggingface_revision: "aadb3af77e9048adbea6b47c21a81e47dd092ae5"
+    destination: "pull/raw"
+    automatic: true
+  imagenet1k:
+    role: "locked_scale_evaluation"
+    source: "manual_licensed_copy"
+    upstream: "https://www.image-net.org/"
+    huggingface_mirror: "ILSVRC/imagenet-1k"
+    access: "gated_terms_required"
+    destination: "pull/raw/imagenet"
+    automatic: false
+
+external_repositories:
+  rigl:
+    upstream: "https://github.com/google-research/rigl"
+    revision: "PIN_BEFORE_USE"
+    purpose: "official dynamic sparse training baseline"
+  full_spectrum_pai:
+    upstream: "https://github.com/VITA-Group/FullSpectrum-PAI"
+    revision: "PIN_BEFORE_USE"
+    purpose: "topology-aware pruning-at-initialization baseline"
+  neural_curvature:
+    upstream: "https://github.com/SH-Tan/Post-Training-NN-Pruning-using-Graph-Curvature"
+    revision: "PIN_BEFORE_USE"
+    purpose: "activation-conditioned graph-curvature baseline"

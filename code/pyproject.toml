@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=69", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cut-to-grow"
+version = "0.1.0"
+description = "Flow-guided dynamic sparse training research scaffold"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=1.26,<3",
+  "PyYAML>=6.0,<7",
+  "scipy>=1.14,<2",
+  "torch>=2.7,<3",
+  "torchvision>=0.22,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.6,<1",
+]
+hf = [
+  "datasets>=4,<5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

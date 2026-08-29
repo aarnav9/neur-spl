@@ -1,0 +1,21 @@
+.DS_Store
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Data folders are created only when they are actually used.
+pull/raw/
+pull/processed/
+pull/external/
+
+# Model and experiment payloads
+*.pt
+*.pth
+*.ckpt
+wandb/
+runs/

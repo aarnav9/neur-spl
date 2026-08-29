@@ -1,0 +1,76 @@
+protocol_version: "0.1-development"
+declared_at: "2026-08-24"
+project: "cut-to-grow"
+
+data:
+  dataset: "cifar100"
+  source: "huggingface"
+  upstream: "https://www.cs.toronto.edu/~kriz/cifar.html"
+  huggingface_mirror: "uoft-cs/cifar100"
+  huggingface_revision: "aadb3af77e9048adbea6b47c21a81e47dd092ae5"
+  root: "pull/raw"
+  split_seed: 20260824
+  fit_examples: 45000
+  selection_examples: 5000
+  official_test_role: "locked_final_only"
+
+model:
+  architecture: "resnet18_cifar"
+  grouping: "output_channel"
+  normalization: "batch_norm"
+
+training:
+  seeds: [20260824, 20260825, 20260826]
+  epochs: 200
+  batch_size: 128
+  optimizer: "sgd"
+  learning_rate: 0.1
+  momentum: 0.9
+  weight_decay: 0.0005
+  scheduler: "cosine"
+
+diagnostic:
+  checkpoint_fractions: [0.1, 0.5, 1.0]
+  groups_per_layer_quantile: 4
+  score_quantiles: 10
+  primary_metric: "layer_macro_spearman"
+  secondary_metrics:
+    - "top_5_percent_damage_auroc"
+    - "precision_at_k"
+    - "score_runtime_seconds"
+
+capacity:
+  ema_decay: 0.95
+  epsilon: 1.0e-12
+  flow_scope: "two_conv_residual_branch"
+  flow_channel_group_size: 16
+  candidates:
+    - "magnitude"
+    - "activation_magnitude"
+    - "first_order"
+    - "fisher_energy"
+    - "cut_frequency"
+    - "marginal_flow"
+  normalization_candidates:
+    - "layerwise"
+    - "directed_degree"
+    - "none"
+
+dynamic_sparse_training:
+  diagnostic_sparsities: [0.80, 0.90, 0.95]
+  topology_update_interval_steps: 500
+  replacement_fraction: 0.10
+  methods:
+    - "random_layerwise_static"
+    - "gradual_magnitude"
+    - "rigl"
+    - "structured_rigl"
+    - "cut_to_grow"
+    - "cut_to_grow_shuffled_within_layer"
+
+gates:
+  minimum_spearman_improvement: 0.10
+  minimum_auroc_improvement: 0.05
+  minimum_accuracy_point_improvement: 0.50
+  maximum_topology_overhead_fraction: 0.15
+  minimum_scorer_speedup_for_accuracy_tie: 10.0
