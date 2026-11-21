@@ -1,0 +1,23 @@
+[21:09:13] starting paired adapter generation: benchmark=gsm8k examples=128 adapter=runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt device=mps dtype=torch.float32
+[21:09:13] reusing compatible baseline: /Users/aarnav/Downloads/neur-spl/runs/qwen_baseline_qwen_validation128.json (35/128 correct)
+[21:09:13] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct
+[21:09:16] original generation complete: correct=35/128 accuracy=0.2734
+[21:09:16] loaded adapter: layer=12 neurons=[529, 657, 1031, 1161, 1304, 2966, 4613, 4705] training_status=complete
+[21:09:19] trained_split_adapter batch 1/16 complete; examples=8/128 accuracy=0.0000 batch_seconds=2.7
+[21:09:21] trained_split_adapter batch 2/16 complete; examples=16/128 accuracy=0.0000 batch_seconds=2.0
+[21:09:23] trained_split_adapter batch 3/16 complete; examples=24/128 accuracy=0.0000 batch_seconds=2.4
+[21:09:25] trained_split_adapter batch 4/16 complete; examples=32/128 accuracy=0.0000 batch_seconds=1.5
+[21:09:27] trained_split_adapter batch 5/16 complete; examples=40/128 accuracy=0.0000 batch_seconds=1.6
+[21:09:47] trained_split_adapter batch 6/16 complete; examples=48/128 accuracy=0.0000 batch_seconds=20.2
+[21:09:50] trained_split_adapter batch 7/16 complete; examples=56/128 accuracy=0.0000 batch_seconds=3.0
+[21:09:52] trained_split_adapter batch 8/16 complete; examples=64/128 accuracy=0.0000 batch_seconds=2.2
+[21:09:54] trained_split_adapter batch 9/16 complete; examples=72/128 accuracy=0.0000 batch_seconds=1.8
+[21:10:00] trained_split_adapter batch 10/16 complete; examples=80/128 accuracy=0.0125 batch_seconds=5.5
+[21:11:00] trained_split_adapter batch 11/16 complete; examples=88/128 accuracy=0.0114 batch_seconds=59.2
+[21:11:08] trained_split_adapter batch 12/16 complete; examples=96/128 accuracy=0.0208 batch_seconds=8.4
+[21:11:11] trained_split_adapter batch 13/16 complete; examples=104/128 accuracy=0.0192 batch_seconds=2.4
+[21:12:14] trained_split_adapter batch 14/16 complete; examples=112/128 accuracy=0.0268 batch_seconds=56.4
+[21:12:27] trained_split_adapter batch 15/16 complete; examples=120/128 accuracy=0.0417 batch_seconds=8.0
+[21:12:39] trained_split_adapter batch 16/16 complete; examples=128/128 accuracy=0.0469 batch_seconds=11.5
+[21:12:39] complete: original=35/128 split=6/128 split_only=3 original_only=32
+[21:12:39] saved /Users/aarnav/Downloads/neur-spl/runs/split_adapter_generation_qwen_eps008_mixed_localized_v1.json

@@ -1,0 +1,25 @@
+[00:54:16] starting validation generation sweep: examples=32 epsilons=[0.0, 0.05, 0.1, 0.2, 0.4, 0.65] top_k=8 device=mps dtype=torch.float32
+[00:54:16] refinement input: /Users/aarnav/Downloads/neur-spl/runs/curvature_refine_first_refine.json
+[00:54:16] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/SmolLM2-135M-Instruct
+[00:54:41] original batch 1/2 complete; examples=16/32 accuracy=0.0625 batch_seconds=23.7
+[00:55:06] original batch 2/2 complete; examples=32/32 accuracy=0.0625 batch_seconds=25.5
+[00:55:06] original complete: correct=2/32 accuracy=0.0625
+[00:55:30] epsilon=0 batch 1/2 complete; examples=16/32 accuracy=0.0625 batch_seconds=23.7
+[00:55:58] epsilon=0 batch 2/2 complete; examples=32/32 accuracy=0.0625 batch_seconds=27.0
+[00:55:58] epsilon=0 complete: correct=2/32 changed_predictions=0/32 split_only=0 original_only=0
+[00:56:36] epsilon=0.05 batch 1/2 complete; examples=16/32 accuracy=0.0625 batch_seconds=38.1
+[00:57:03] epsilon=0.05 batch 2/2 complete; examples=32/32 accuracy=0.0625 batch_seconds=27.2
+[00:57:03] epsilon=0.05 complete: correct=2/32 changed_predictions=2/32 split_only=0 original_only=0
+[00:57:36] epsilon=0.1 batch 1/2 complete; examples=16/32 accuracy=0.0625 batch_seconds=32.5
+[00:58:04] epsilon=0.1 batch 2/2 complete; examples=32/32 accuracy=0.0625 batch_seconds=27.7
+[00:58:04] epsilon=0.1 complete: correct=2/32 changed_predictions=5/32 split_only=0 original_only=0
+[00:58:34] epsilon=0.2 batch 1/2 complete; examples=16/32 accuracy=0.0625 batch_seconds=29.9
+[00:58:59] epsilon=0.2 batch 2/2 complete; examples=32/32 accuracy=0.0625 batch_seconds=25.5
+[00:58:59] epsilon=0.2 complete: correct=2/32 changed_predictions=13/32 split_only=0 original_only=0
+[00:59:24] epsilon=0.4 batch 1/2 complete; examples=16/32 accuracy=0.0000 batch_seconds=24.4
+[00:59:48] epsilon=0.4 batch 2/2 complete; examples=32/32 accuracy=0.0000 batch_seconds=24.7
+[00:59:48] epsilon=0.4 complete: correct=0/32 changed_predictions=25/32 split_only=0 original_only=2
+[01:00:14] epsilon=0.65 batch 1/2 complete; examples=16/32 accuracy=0.0000 batch_seconds=25.1
+[01:00:44] epsilon=0.65 batch 2/2 complete; examples=32/32 accuracy=0.0000 batch_seconds=30.7
+[01:00:44] epsilon=0.65 complete: correct=0/32 changed_predictions=30/32 split_only=0 original_only=2
+[01:00:45] complete: saved /Users/aarnav/Downloads/neur-spl/runs/split_generation_sweep_validation_generation_sweep.json

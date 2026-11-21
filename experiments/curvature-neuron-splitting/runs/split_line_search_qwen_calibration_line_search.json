@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "created_utc": "2026-08-29T06:03:52.967639+00:00",
+    "method": "refined_curvature_split_direction_line_search",
+    "model": "/Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct",
+    "data": "/Users/aarnav/Downloads/neur-spl/subsets/dev_v1/curvature_64.jsonl",
+    "refinement": "/Users/aarnav/Downloads/neur-spl/runs/curvature_refine_qwen_layer12_refine.json",
+    "layer": 12,
+    "device": "mps",
+    "dtype": "torch.float32",
+    "examples": 64,
+    "target_tokens": 7827,
+    "top_k": 8,
+    "selected_neurons": [
+      4613,
+      657,
+      529,
+      4705,
+      2966,
+      1161,
+      1031,
+      1304
+    ],
+    "curvature_sum": -50.85523509979248,
+    "parameters_before": 494032768,
+    "parameters_after": 494054272,
+    "added_parameters": 21504,
+    "original_mean_nll": 0.6838924017570265,
+    "exact_split_mean_nll": 0.6838922545692694,
+    "exact_split_numerical_delta": -1.471877570935476e-07,
+    "original_elapsed_seconds": 17.679870082996786,
+    "elapsed_seconds": 118.09744954100461
+  },
+  "selected_candidates": [
+    {
+      "refined_rank": 1,
+      "neuron_index": 4613,
+      "minimum_ritz_value": -7.443018913269043,
+      "residual_estimate": 7.217248465529735e-10
+    },
+    {
+      "refined_rank": 2,
+      "neuron_index": 657,
+      "minimum_ritz_value": -6.712541580200195,
+      "residual_estimate": 1.165756202681223e-08
+    },
+    {
+      "refined_rank": 3,
+      "neuron_index": 529,
+      "minimum_ritz_value": -6.459539890289307,
+      "residual_estimate": 4.421977450874692e-09
+    },
+    {
+      "refined_rank": 4,
+      "neuron_index": 4705,
+      "minimum_ritz_value": -6.440393447875977,
+      "residual_estimate": 5.845502748513809e-09
+    },
+    {
+      "refined_rank": 5,
+      "neuron_index": 2966,
+      "minimum_ritz_value": -6.241910457611084,
+      "residual_estimate": 6.3831859797858215e-09
+    },
+    {
+      "refined_rank": 6,
+      "neuron_index": 1161,
+      "minimum_ritz_value": -6.204580783843994,
+      "residual_estimate": 2.6410102549334624e-08
+    },
+    {
+      "refined_rank": 7,
+      "neuron_index": 1031,
+      "minimum_ritz_value": -6.174025058746338,
+      "residual_estimate": 1.8176621097154566e-08
+    },
+    {
+      "refined_rank": 8,
+      "neuron_index": 1304,
+      "minimum_ritz_value": -5.179224967956543,
+      "residual_estimate": 1.7366776461358313e-08
+    }
+  ],
+  "measurements": [
+    {
+      "epsilon": 0.0,
+      "mean_nll": 0.6838922545692694,
+      "delta_from_original": -1.471877570935476e-07,
+      "delta_from_exact_split": 0.0,
+      "quadratic_predicted_delta": -0.0,
+      "elapsed_seconds": 14.995333583006868
+    },
+    {
+      "epsilon": 0.005,
+      "mean_nll": 0.6832650271018864,
+      "delta_from_original": -0.0006273746551400672,
+      "delta_from_exact_split": -0.0006272274673829736,
+      "quadratic_predicted_delta": -0.0006356904387474061,
+      "elapsed_seconds": 13.718969834008021
+    },
+    {
+      "epsilon": 0.01,
+      "mean_nll": 0.6814903950377474,
+      "delta_from_original": -0.0024020067192790373,
+      "delta_from_exact_split": -0.0024018595315219438,
+      "quadratic_predicted_delta": -0.0025427617549896244,
+      "elapsed_seconds": 13.366854959007469
+    },
+    {
+      "epsilon": 0.02,
+      "mean_nll": 0.6759242999290193,
+      "delta_from_original": -0.007968101828007224,
+      "delta_from_exact_split": -0.00796795464025013,
+      "quadratic_predicted_delta": -0.010171047019958497,
+      "elapsed_seconds": 13.593567834002897
+    },
+    {
+      "epsilon": 0.04,
+      "mean_nll": 0.6644406078022316,
+      "delta_from_original": -0.019451793954794905,
+      "delta_from_exact_split": -0.01945164676703781,
+      "quadratic_predicted_delta": -0.04068418807983399,
+      "elapsed_seconds": 14.282097667004564
+    },
+    {
+      "epsilon": 0.08,
+      "mean_nll": 0.6537434071191993,
+      "delta_from_original": -0.030148994637827164,
+      "delta_from_exact_split": -0.03014884745007007,
+      "quadratic_predicted_delta": -0.16273675231933596,
+      "elapsed_seconds": 13.617110457998933
+    },
+    {
+      "epsilon": 0.12,
+      "mean_nll": 0.6531393290693098,
+      "delta_from_original": -0.030753072687716654,
+      "delta_from_exact_split": -0.03075292549995956,
+      "quadratic_predicted_delta": -0.36615769271850584,
+      "elapsed_seconds": 13.393541750003351
+    }
+  ]
+}

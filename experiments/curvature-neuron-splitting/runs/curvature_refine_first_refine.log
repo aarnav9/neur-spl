@@ -1,0 +1,36 @@
+[00:20:09] starting Lanczos refinement: candidates=32 examples=16 iterations=20 device=mps dtype=torch.float32
+[00:20:09] screening input: /Users/aarnav/Downloads/neur-spl/runs/curvature_proxy_first_scan.json
+[00:20:09] candidate neuron indices: [492, 1350, 322, 934, 35, 648, 319, 479, 1336, 49, 618, 1025, 833, 1429, 793, 467, 189, 564, 735, 774, 1126, 931, 1468, 524, 772, 1219, 342, 285, 1372, 38, 755, 381]
+[00:20:09] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/SmolLM2-135M-Instruct
+[00:20:12] collection batch 1/8 complete; examples=2/16 valid_positions=477 target_tokens=260 batch_seconds=2.0
+[00:20:13] collection batch 2/8 complete; examples=4/16 valid_positions=923 target_tokens=485 batch_seconds=0.6
+[00:20:13] collection batch 3/8 complete; examples=6/16 valid_positions=1274 target_tokens=649 batch_seconds=0.5
+[00:20:14] collection batch 4/8 complete; examples=8/16 valid_positions=1618 target_tokens=790 batch_seconds=0.4
+[00:20:17] collection batch 5/8 complete; examples=10/16 valid_positions=2231 target_tokens=1145 batch_seconds=3.0
+[00:20:18] collection batch 6/8 complete; examples=12/16 valid_positions=2720 target_tokens=1415 batch_seconds=0.9
+[00:20:18] collection batch 7/8 complete; examples=14/16 valid_positions=3067 target_tokens=1573 batch_seconds=0.5
+[00:20:22] collection batch 8/8 complete; examples=16/16 valid_positions=3795 target_tokens=2045 batch_seconds=3.9
+[00:20:23] statistics ready: positions=3795 hidden=576 candidates=32; starting batched Lanczos
+[00:20:24] HVP symmetry check: max_abs_error=6.548e-11 mean_abs_error=2.153e-11
+[00:20:24] Lanczos iteration 1/20 complete; current_global_min=-2.123147e-04 iteration_seconds=0.19
+[00:20:24] Lanczos iteration 2/20 complete; current_global_min=-8.010335e-02 iteration_seconds=0.02
+[00:20:24] Lanczos iteration 3/20 complete; current_global_min=-9.723191e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 4/20 complete; current_global_min=-9.741673e-02 iteration_seconds=0.00
+[00:20:24] Lanczos iteration 5/20 complete; current_global_min=-9.741773e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 6/20 complete; current_global_min=-9.741771e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 7/20 complete; current_global_min=-9.741772e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 8/20 complete; current_global_min=-9.741772e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 9/20 complete; current_global_min=-9.741772e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 10/20 complete; current_global_min=-9.741773e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 11/20 complete; current_global_min=-9.741775e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 12/20 complete; current_global_min=-9.741773e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 13/20 complete; current_global_min=-9.741773e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 14/20 complete; current_global_min=-9.741773e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 15/20 complete; current_global_min=-9.741774e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 16/20 complete; current_global_min=-9.741773e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 17/20 complete; current_global_min=-9.741775e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 18/20 complete; current_global_min=-9.741773e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 19/20 complete; current_global_min=-9.741771e-02 iteration_seconds=0.01
+[00:20:24] Lanczos iteration 20/20 complete; current_global_min=-9.741774e-02 iteration_seconds=0.02
+[00:20:24] complete: best_neuron=492 minimum_ritz=-9.741773e-02 residual=2.705e-11
+[00:20:24] saved /Users/aarnav/Downloads/neur-spl/runs/curvature_refine_first_refine.json

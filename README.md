@@ -136,3 +136,11 @@ accuracy-damage endpoint, paired bootstrap intervals, and a within-layer
 shuffle control. The flow graph currently covers each two-convolution residual
 branch. It deliberately excludes the skip path until that path has a measured
 capacity rather than an arbitrary constant.
+
+## Other experiments
+
+[Curvature-guided neuron splitting](experiments/curvature-neuron-splitting/)
+contains the separate SmolLM2/Qwen SwiGLU splitting experiments, including code,
+tests, fixed development subsets, research notes, and saved results. Its
+[results ledger](experiments/curvature-neuron-splitting/results.md) records the
+likelihood improvements and negative/null generation-accuracy findings.

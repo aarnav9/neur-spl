@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-08-29T02:43:07.370698+00:00",
+  "model": {
+    "repo": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "path": "models/Qwen2.5-0.5B-Instruct"
+  },
+  "datasets": [
+    {
+      "repo": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "path": "datasets/gsm8k",
+      "sampling": "complete repository; original train and test splits retained"
+    },
+    {
+      "repo": "EleutherAI/hendrycks_math",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "path": "datasets/hendrycks_math",
+      "sampling": "complete repository; original train and test splits retained"
+    },
+    {
+      "repo": "nvidia/OpenMathInstruct-1",
+      "revision": "4627efae6bd2ddcebb8acac00d513ffd8e00775c",
+      "source_file": "correct_solutions/train.jsonl",
+      "path": "datasets/openmathinstruct_50k/train.jsonl",
+      "sampling": "first 50000 valid JSONL records; training only"
+    }
+  ]
+}

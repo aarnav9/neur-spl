@@ -1,0 +1,19 @@
+[01:47:11] starting curvature proxy: examples=64 layer=12 probes=8 device=mps dtype=torch.float32
+[01:47:11] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct
+[01:47:15] model ready: hidden=896 ffn_width=4864; prepared 64 examples
+[01:47:20] batch 1/32 complete; examples=2/64 target_tokens=257 current_min=-1.756086e-02 batch_seconds=5.8
+[01:47:38] batch 2/32 complete; examples=4/64 target_tokens=474 current_min=-1.896225e-02 batch_seconds=17.5
+[01:47:55] batch 3/32 complete; examples=6/64 target_tokens=634 current_min=-1.913738e-02 batch_seconds=17.2
+[01:48:36] batch 4/32 complete; examples=8/64 target_tokens=773 current_min=-2.797215e-02 batch_seconds=40.5
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/aarnav/Downloads/neur-spl/src/neurspl/curvature_proxy.py", line 234, in <module>
+    main()
+  File "/Users/aarnav/Downloads/neur-spl/src/neurspl/curvature_proxy.py", line 136, in main
+    loss_sum.backward()
+  File "/Users/aarnav/Downloads/neur-spl/.venv/lib/python3.11/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/aarnav/Downloads/neur-spl/.venv/lib/python3.11/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: MPS backend out of memory (MPS allocated: 8.32 GB, other allocations: 456.95 MB, max allowed: 9.07 GB). Tried to allocate 403.39 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).

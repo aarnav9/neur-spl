@@ -1,0 +1,92 @@
+[01:56:09] starting Lanczos refinement: candidates=64 examples=64 iterations=20 device=mps dtype=torch.float32
+[01:56:09] screening input: /Users/aarnav/Downloads/neur-spl/runs/curvature_proxy_qwen_layer12_scan_b1.json
+[01:56:09] candidate neuron indices: [1161, 529, 657, 1304, 1575, 4613, 1517, 2966, 4176, 3825, 1810, 1870, 3367, 1984, 3025, 1940, 522, 1621, 205, 2398, 2876, 3017, 1316, 3700, 1199, 1205, 4275, 1930, 601, 433, 4507, 955, 1031, 3061, 3135, 3231, 1142, 2418, 367, 3631, 2171, 4170, 3059, 3612, 4539, 2114, 3310, 1917, 4789, 2021, 3949, 2087, 3488, 4705, 3476, 4415, 1709, 951, 652, 3779, 863, 55, 1331, 3921]
+[01:56:09] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct
+[01:56:15] collection batch 1/64 complete; examples=1/64 valid_positions=243 target_tokens=125 batch_seconds=2.3
+[01:56:16] collection batch 2/64 complete; examples=2/64 valid_positions=474 target_tokens=257 batch_seconds=0.6
+[01:56:16] collection batch 3/64 complete; examples=3/64 valid_positions=636 target_tokens=327 batch_seconds=0.4
+[01:56:17] collection batch 4/64 complete; examples=4/64 valid_positions=912 target_tokens=474 batch_seconds=0.6
+[01:56:17] collection batch 5/64 complete; examples=5/64 valid_positions=1080 target_tokens=548 batch_seconds=0.4
+[01:56:18] collection batch 6/64 complete; examples=6/64 valid_positions=1257 target_tokens=634 batch_seconds=0.4
+[01:56:18] collection batch 7/64 complete; examples=7/64 valid_positions=1448 target_tokens=718 batch_seconds=0.5
+[01:56:19] collection batch 8/64 complete; examples=8/64 valid_positions=1598 target_tokens=773 batch_seconds=0.4
+[01:56:20] collection batch 9/64 complete; examples=9/64 valid_positions=1947 target_tokens=994 batch_seconds=1.8
+[01:56:21] collection batch 10/64 complete; examples=10/64 valid_positions=2204 target_tokens=1119 batch_seconds=0.7
+[01:56:22] collection batch 11/64 complete; examples=11/64 valid_positions=2392 target_tokens=1210 batch_seconds=0.4
+[01:56:22] collection batch 12/64 complete; examples=12/64 valid_positions=2683 target_tokens=1384 batch_seconds=0.6
+[01:56:23] collection batch 13/64 complete; examples=13/64 valid_positions=2872 target_tokens=1467 batch_seconds=0.4
+[01:56:23] collection batch 14/64 complete; examples=14/64 valid_positions=3025 target_tokens=1538 batch_seconds=0.4
+[01:56:24] collection batch 15/64 complete; examples=15/64 valid_positions=3409 target_tokens=1804 batch_seconds=1.2
+[01:56:26] collection batch 16/64 complete; examples=16/64 valid_positions=3752 target_tokens=2011 batch_seconds=1.0
+[01:56:26] collection batch 17/64 complete; examples=17/64 valid_positions=4063 target_tokens=2204 batch_seconds=0.7
+[01:56:27] collection batch 18/64 complete; examples=18/64 valid_positions=4339 target_tokens=2342 batch_seconds=0.5
+[01:56:28] collection batch 19/64 complete; examples=19/64 valid_positions=4616 target_tokens=2493 batch_seconds=0.5
+[01:56:28] collection batch 20/64 complete; examples=20/64 valid_positions=4848 target_tokens=2593 batch_seconds=0.5
+[01:56:29] collection batch 21/64 complete; examples=21/64 valid_positions=5059 target_tokens=2693 batch_seconds=0.4
+[01:56:29] collection batch 22/64 complete; examples=22/64 valid_positions=5295 target_tokens=2800 batch_seconds=0.5
+[01:56:30] collection batch 23/64 complete; examples=23/64 valid_positions=5512 target_tokens=2913 batch_seconds=0.5
+[01:56:30] collection batch 24/64 complete; examples=24/64 valid_positions=5707 target_tokens=3011 batch_seconds=0.5
+[01:56:31] collection batch 25/64 complete; examples=25/64 valid_positions=5870 target_tokens=3081 batch_seconds=0.4
+[01:56:31] collection batch 26/64 complete; examples=26/64 valid_positions=6057 target_tokens=3164 batch_seconds=0.4
+[01:56:32] collection batch 27/64 complete; examples=27/64 valid_positions=6240 target_tokens=3226 batch_seconds=0.4
+[01:56:32] collection batch 28/64 complete; examples=28/64 valid_positions=6456 target_tokens=3303 batch_seconds=0.5
+[01:56:33] collection batch 29/64 complete; examples=29/64 valid_positions=6625 target_tokens=3356 batch_seconds=0.4
+[01:56:33] collection batch 30/64 complete; examples=30/64 valid_positions=6913 target_tokens=3543 batch_seconds=0.6
+[01:56:34] collection batch 31/64 complete; examples=31/64 valid_positions=7095 target_tokens=3620 batch_seconds=0.4
+[01:56:34] collection batch 32/64 complete; examples=32/64 valid_positions=7288 target_tokens=3723 batch_seconds=0.5
+[01:56:35] collection batch 33/64 complete; examples=33/64 valid_positions=7494 target_tokens=3829 batch_seconds=0.5
+[01:56:35] collection batch 34/64 complete; examples=34/64 valid_positions=7691 target_tokens=3935 batch_seconds=0.5
+[01:56:36] collection batch 35/64 complete; examples=35/64 valid_positions=7931 target_tokens=4080 batch_seconds=0.6
+[01:56:37] collection batch 36/64 complete; examples=36/64 valid_positions=8182 target_tokens=4228 batch_seconds=0.6
+[01:56:38] collection batch 37/64 complete; examples=37/64 valid_positions=8480 target_tokens=4424 batch_seconds=1.2
+[01:56:40] collection batch 38/64 complete; examples=38/64 valid_positions=8807 target_tokens=4607 batch_seconds=1.6
+[01:56:41] collection batch 39/64 complete; examples=39/64 valid_positions=8991 target_tokens=4697 batch_seconds=0.7
+[01:56:41] collection batch 40/64 complete; examples=40/64 valid_positions=9329 target_tokens=4888 batch_seconds=0.8
+[01:56:43] collection batch 41/64 complete; examples=41/64 valid_positions=9657 target_tokens=5100 batch_seconds=1.2
+[01:56:44] collection batch 42/64 complete; examples=42/64 valid_positions=9943 target_tokens=5248 batch_seconds=0.9
+[01:56:44] collection batch 43/64 complete; examples=43/64 valid_positions=10225 target_tokens=5412 batch_seconds=0.6
+[01:56:45] collection batch 44/64 complete; examples=44/64 valid_positions=10497 target_tokens=5574 batch_seconds=0.7
+[01:56:46] collection batch 45/64 complete; examples=45/64 valid_positions=10768 target_tokens=5709 batch_seconds=0.6
+[01:56:47] collection batch 46/64 complete; examples=46/64 valid_positions=11013 target_tokens=5815 batch_seconds=0.8
+[01:56:47] collection batch 47/64 complete; examples=47/64 valid_positions=11169 target_tokens=5869 batch_seconds=0.4
+[01:56:48] collection batch 48/64 complete; examples=48/64 valid_positions=11343 target_tokens=5948 batch_seconds=0.5
+[01:56:48] collection batch 49/64 complete; examples=49/64 valid_positions=11566 target_tokens=6050 batch_seconds=0.5
+[01:56:49] collection batch 50/64 complete; examples=50/64 valid_positions=11769 target_tokens=6140 batch_seconds=0.5
+[01:56:49] collection batch 51/64 complete; examples=51/64 valid_positions=12038 target_tokens=6306 batch_seconds=0.7
+[01:56:50] collection batch 52/64 complete; examples=52/64 valid_positions=12321 target_tokens=6454 batch_seconds=0.7
+[01:56:51] collection batch 53/64 complete; examples=53/64 valid_positions=12533 target_tokens=6554 batch_seconds=0.5
+[01:56:51] collection batch 54/64 complete; examples=54/64 valid_positions=12687 target_tokens=6615 batch_seconds=0.4
+[01:56:52] collection batch 55/64 complete; examples=55/64 valid_positions=12953 target_tokens=6761 batch_seconds=0.7
+[01:56:53] collection batch 56/64 complete; examples=56/64 valid_positions=13213 target_tokens=6889 batch_seconds=0.6
+[01:56:53] collection batch 57/64 complete; examples=57/64 valid_positions=13381 target_tokens=6960 batch_seconds=0.4
+[01:56:54] collection batch 58/64 complete; examples=58/64 valid_positions=13572 target_tokens=7043 batch_seconds=0.4
+[01:56:54] collection batch 59/64 complete; examples=59/64 valid_positions=13748 target_tokens=7117 batch_seconds=0.6
+[01:56:55] collection batch 60/64 complete; examples=60/64 valid_positions=13980 target_tokens=7226 batch_seconds=0.5
+[01:56:55] collection batch 61/64 complete; examples=61/64 valid_positions=14169 target_tokens=7312 batch_seconds=0.5
+[01:56:56] collection batch 62/64 complete; examples=62/64 valid_positions=14400 target_tokens=7419 batch_seconds=0.5
+[01:56:57] collection batch 63/64 complete; examples=63/64 valid_positions=14677 target_tokens=7577 batch_seconds=0.6
+[01:57:01] collection batch 64/64 complete; examples=64/64 valid_positions=15058 target_tokens=7827 batch_seconds=4.4
+[01:57:02] statistics ready: positions=15058 hidden=896 candidates=64; starting batched Lanczos
+[01:57:03] HVP symmetry check: max_abs_error=6.054e-09 mean_abs_error=1.500e-09
+[01:57:03] Lanczos iteration 1/20 complete; current_global_min=-1.260346e-02 iteration_seconds=0.05
+[01:57:03] Lanczos iteration 2/20 complete; current_global_min=-3.619572e+00 iteration_seconds=0.05
+[01:57:03] Lanczos iteration 3/20 complete; current_global_min=-6.366673e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 4/20 complete; current_global_min=-7.259298e+00 iteration_seconds=0.01
+[01:57:03] Lanczos iteration 5/20 complete; current_global_min=-7.437626e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 6/20 complete; current_global_min=-7.442919e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 7/20 complete; current_global_min=-7.443017e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 8/20 complete; current_global_min=-7.443017e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 9/20 complete; current_global_min=-7.443016e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 10/20 complete; current_global_min=-7.443019e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 11/20 complete; current_global_min=-7.443018e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 12/20 complete; current_global_min=-7.443018e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 13/20 complete; current_global_min=-7.443019e+00 iteration_seconds=0.03
+[01:57:03] Lanczos iteration 14/20 complete; current_global_min=-7.443018e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 15/20 complete; current_global_min=-7.443019e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 16/20 complete; current_global_min=-7.443019e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 17/20 complete; current_global_min=-7.443017e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 18/20 complete; current_global_min=-7.443019e+00 iteration_seconds=0.02
+[01:57:03] Lanczos iteration 19/20 complete; current_global_min=-7.443014e+00 iteration_seconds=0.03
+[01:57:03] Lanczos iteration 20/20 complete; current_global_min=-7.443017e+00 iteration_seconds=0.03
+[01:57:04] complete: best_neuron=4613 minimum_ritz=-7.443019e+00 residual=7.217e-10
+[01:57:04] saved /Users/aarnav/Downloads/neur-spl/runs/curvature_refine_qwen_layer12_refine.json

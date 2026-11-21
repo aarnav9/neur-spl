@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "created_utc": "2026-08-29T04:23:24.760966+00:00",
+    "method": "refined_curvature_split_direction_line_search",
+    "model": "/Users/aarnav/Downloads/neur-spl/models/SmolLM2-135M-Instruct",
+    "data": "/Users/aarnav/Downloads/neur-spl/subsets/micro_v1/curvature_16.jsonl",
+    "refinement": "/Users/aarnav/Downloads/neur-spl/runs/curvature_refine_first_refine.json",
+    "layer": 15,
+    "device": "mps",
+    "dtype": "torch.float32",
+    "examples": 16,
+    "target_tokens": 2045,
+    "top_k": 8,
+    "selected_neurons": [
+      492,
+      934,
+      49,
+      1025,
+      1350,
+      1429,
+      322,
+      381
+    ],
+    "curvature_sum": -0.6499680131673813,
+    "parameters_before": 134515008,
+    "parameters_after": 134528832,
+    "added_parameters": 13824,
+    "original_mean_nll": 1.0757218712990908,
+    "exact_split_mean_nll": 1.0757219757602383,
+    "exact_split_numerical_delta": 1.0446114750983782e-07,
+    "original_elapsed_seconds": 2.587221124995267,
+    "elapsed_seconds": 10.024659290997079
+  },
+  "selected_candidates": [
+    {
+      "refined_rank": 1,
+      "neuron_index": 492,
+      "minimum_ritz_value": -0.09741772711277008,
+      "residual_estimate": 2.705385568346763e-11
+    },
+    {
+      "refined_rank": 2,
+      "neuron_index": 934,
+      "minimum_ritz_value": -0.09385543316602707,
+      "residual_estimate": 6.792089460305739e-12
+    },
+    {
+      "refined_rank": 3,
+      "neuron_index": 49,
+      "minimum_ritz_value": -0.09127752482891083,
+      "residual_estimate": 2.546144545201301e-11
+    },
+    {
+      "refined_rank": 4,
+      "neuron_index": 1025,
+      "minimum_ritz_value": -0.08931294083595276,
+      "residual_estimate": 1.6520507184480948e-11
+    },
+    {
+      "refined_rank": 5,
+      "neuron_index": 1350,
+      "minimum_ritz_value": -0.0791725218296051,
+      "residual_estimate": 2.1480105888427303e-11
+    },
+    {
+      "refined_rank": 6,
+      "neuron_index": 1429,
+      "minimum_ritz_value": -0.07390746474266052,
+      "residual_estimate": 2.606148977180034e-11
+    },
+    {
+      "refined_rank": 7,
+      "neuron_index": 322,
+      "minimum_ritz_value": -0.06718899309635162,
+      "residual_estimate": 1.6370176048052798e-11
+    },
+    {
+      "refined_rank": 8,
+      "neuron_index": 381,
+      "minimum_ritz_value": -0.0578354075551033,
+      "residual_estimate": 1.5240557080242745e-11
+    }
+  ],
+  "measurements": [
+    {
+      "epsilon": 0.0,
+      "mean_nll": 1.0757219757602383,
+      "delta_from_original": 1.0446114750983782e-07,
+      "delta_from_exact_split": 0.0,
+      "quadratic_predicted_delta": -0.0,
+      "elapsed_seconds": 1.6186309170007007
+    },
+    {
+      "epsilon": 0.025,
+      "mean_nll": 1.0755192166727154,
+      "delta_from_original": -0.0002026546263753648,
+      "delta_from_exact_split": -0.00020275908752287464,
+      "quadratic_predicted_delta": -0.0002031150041148067,
+      "elapsed_seconds": 1.2292367500049295
+    },
+    {
+      "epsilon": 0.05,
+      "mean_nll": 1.07491276748023,
+      "delta_from_original": -0.0008091038188609012,
+      "delta_from_exact_split": -0.000809208280008411,
+      "quadratic_predicted_delta": -0.0008124600164592268,
+      "elapsed_seconds": 1.2397992920014076
+    },
+    {
+      "epsilon": 0.1,
+      "mean_nll": 1.0725292327060094,
+      "delta_from_original": -0.003192638593081387,
+      "delta_from_exact_split": -0.003192743054228897,
+      "quadratic_predicted_delta": -0.003249840065836907,
+      "elapsed_seconds": 1.2386901249992661
+    },
+    {
+      "epsilon": 0.2,
+      "mean_nll": 1.0636170179744804,
+      "delta_from_original": -0.01210485332461042,
+      "delta_from_exact_split": -0.01210495778575793,
+      "quadratic_predicted_delta": -0.012999360263347628,
+      "elapsed_seconds": 1.2359017080016201
+    }
+  ]
+}

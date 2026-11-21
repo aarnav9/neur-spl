@@ -1,0 +1,33 @@
+[00:43:29] starting split line search: top_k=8 layer=15 epsilons=[0.0, 0.65] examples=16 device=mps dtype=torch.float32
+[00:43:29] refinement input: /Users/aarnav/Downloads/neur-spl/runs/curvature_refine_first_refine.json
+[00:43:29] selected neurons: [492, 934, 49, 1025, 1350, 1429, 322, 381]
+[00:43:29] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/SmolLM2-135M-Instruct
+[00:43:30] original batch 1/8 complete; examples=2/16 running_nll=1.13362503 batch_seconds=0.8
+[00:43:31] original batch 2/8 complete; examples=4/16 running_nll=1.44952761 batch_seconds=0.2
+[00:43:31] original batch 3/8 complete; examples=6/16 running_nll=1.29977374 batch_seconds=0.4
+[00:43:31] original batch 4/8 complete; examples=8/16 running_nll=1.38998941 batch_seconds=0.2
+[00:43:32] original batch 5/8 complete; examples=10/16 running_nll=1.30547020 batch_seconds=0.2
+[00:43:32] original batch 6/8 complete; examples=12/16 running_nll=1.34473176 batch_seconds=0.2
+[00:43:32] original batch 7/8 complete; examples=14/16 running_nll=1.34961886 batch_seconds=0.2
+[00:43:32] original batch 8/8 complete; examples=16/16 running_nll=1.31975473 batch_seconds=0.3
+[00:43:32] original model complete: mean_nll=1.31975473
+[00:43:32] epsilon=0 batch 1/8 complete; examples=2/16 running_nll=1.13362587 batch_seconds=0.1
+[00:43:33] epsilon=0 batch 2/8 complete; examples=4/16 running_nll=1.44952888 batch_seconds=0.1
+[00:43:33] epsilon=0 batch 3/8 complete; examples=6/16 running_nll=1.29977428 batch_seconds=0.2
+[00:43:33] epsilon=0 batch 4/8 complete; examples=8/16 running_nll=1.38998974 batch_seconds=0.1
+[00:43:33] epsilon=0 batch 5/8 complete; examples=10/16 running_nll=1.30547041 batch_seconds=0.2
+[00:43:33] epsilon=0 batch 6/8 complete; examples=12/16 running_nll=1.34473188 batch_seconds=0.1
+[00:43:33] epsilon=0 batch 7/8 complete; examples=14/16 running_nll=1.34961892 batch_seconds=0.2
+[00:43:34] epsilon=0 batch 8/8 complete; examples=16/16 running_nll=1.31975482 batch_seconds=0.2
+[00:43:34] epsilon=0 complete: mean_nll=1.31975482 delta_original=+9.03956698e-08 predicted=-0.00000000e+00
+[00:43:34] epsilon=0.65 batch 1/8 complete; examples=2/16 running_nll=1.01783511 batch_seconds=0.1
+[00:43:34] epsilon=0.65 batch 2/8 complete; examples=4/16 running_nll=1.27873250 batch_seconds=0.1
+[00:43:34] epsilon=0.65 batch 3/8 complete; examples=6/16 running_nll=1.18535795 batch_seconds=0.2
+[00:43:34] epsilon=0.65 batch 4/8 complete; examples=8/16 running_nll=1.25695133 batch_seconds=0.1
+[00:43:34] epsilon=0.65 batch 5/8 complete; examples=10/16 running_nll=1.19938765 batch_seconds=0.2
+[00:43:34] epsilon=0.65 batch 6/8 complete; examples=12/16 running_nll=1.23771229 batch_seconds=0.1
+[00:43:35] epsilon=0.65 batch 7/8 complete; examples=14/16 running_nll=1.24240740 batch_seconds=0.2
+[00:43:35] epsilon=0.65 batch 8/8 complete; examples=16/16 running_nll=1.22046543 batch_seconds=0.2
+[00:43:35] epsilon=0.65 complete: mean_nll=1.22046543 delta_original=-9.92893020e-02 predicted=-1.37305743e-01
+[00:43:35] complete: best_epsilon=0.65 best_nll=1.22046543 best_delta=-9.92893020e-02
+[00:43:35] saved /Users/aarnav/Downloads/neur-spl/runs/split_line_search_locked_test.json

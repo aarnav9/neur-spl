@@ -1,0 +1,79 @@
+[19:52:16] starting localized split training: examples=512 layer=12 top_k=8 epsilon=0.08 objective=mixed epochs=1 batch=1 accumulation=8 device=mps dtype=torch.float32
+[19:52:16] selected neurons: [529, 657, 1031, 1161, 1304, 2966, 4613, 4705]
+[19:52:16] adapter checkpoint: /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt
+[19:52:16] result: /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.json
+[19:52:16] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct
+[19:52:20] model ready: architectural_added=21504 trainable_coordinates=43008
+[19:52:20] tokenizing answer and solution targets
+[19:52:39] epoch 1/1 step 1/64 complete; examples=8/512 answer=5 solution=3 tokens=415 nll=0.527589 grad_norm=1.1585 step_seconds=17.6
+[19:54:24] epoch 1/1 step 2/64 complete; examples=16/512 answer=4 solution=4 tokens=590 nll=0.568131 grad_norm=1.0307 step_seconds=104.0
+[19:54:55] epoch 1/1 step 3/64 complete; examples=24/512 answer=4 solution=4 tokens=523 nll=0.764941 grad_norm=1.0251 step_seconds=29.7
+[19:55:19] epoch 1/1 step 4/64 complete; examples=32/512 answer=5 solution=3 tokens=492 nll=0.574102 grad_norm=0.8821 step_seconds=22.6
+[19:57:07] epoch 1/1 step 5/64 complete; examples=40/512 answer=4 solution=4 tokens=397 nll=0.539587 grad_norm=1.3549 step_seconds=107.2
+[19:57:21] epoch 1/1 step 6/64 complete; examples=48/512 answer=4 solution=4 tokens=474 nll=0.653897 grad_norm=0.8886 step_seconds=12.2
+[19:59:35] epoch 1/1 step 7/64 complete; examples=56/512 answer=3 solution=5 tokens=774 nll=0.759227 grad_norm=0.8138 step_seconds=132.5
+[20:00:11] epoch 1/1 step 8/64 complete; examples=64/512 answer=4 solution=4 tokens=575 nll=0.581491 grad_norm=0.7563 step_seconds=34.0
+[20:01:06] epoch 1/1 step 9/64 complete; examples=72/512 answer=5 solution=3 tokens=475 nll=0.426186 grad_norm=0.6335 step_seconds=53.5
+[20:02:16] epoch 1/1 step 10/64 complete; examples=80/512 answer=5 solution=3 tokens=537 nll=0.597091 grad_norm=0.8253 step_seconds=68.4
+[20:02:16] checkpointed adapter at step 10: /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt
+[20:03:37] epoch 1/1 step 11/64 complete; examples=88/512 answer=4 solution=4 tokens=722 nll=0.696015 grad_norm=0.7335 step_seconds=80.0
+[20:04:39] epoch 1/1 step 12/64 complete; examples=96/512 answer=3 solution=5 tokens=674 nll=0.416664 grad_norm=1.0027 step_seconds=61.0
+[20:04:54] epoch 1/1 step 13/64 complete; examples=104/512 answer=5 solution=3 tokens=283 nll=0.521690 grad_norm=1.7574 step_seconds=13.6
+[20:05:07] epoch 1/1 step 14/64 complete; examples=112/512 answer=7 solution=1 tokens=155 nll=0.701040 grad_norm=1.7982 step_seconds=11.7
+[20:05:28] epoch 1/1 step 15/64 complete; examples=120/512 answer=1 solution=7 tokens=876 nll=0.395618 grad_norm=0.8445 step_seconds=20.1
+[20:05:35] epoch 1/1 step 16/64 complete; examples=128/512 answer=7 solution=1 tokens=147 nll=0.716731 grad_norm=1.4296 step_seconds=6.4
+[20:06:32] epoch 1/1 step 17/64 complete; examples=136/512 answer=5 solution=3 tokens=435 nll=0.677902 grad_norm=0.8689 step_seconds=55.5
+[20:06:49] epoch 1/1 step 18/64 complete; examples=144/512 answer=4 solution=4 tokens=467 nll=0.476695 grad_norm=0.8825 step_seconds=15.1
+[20:06:57] epoch 1/1 step 19/64 complete; examples=152/512 answer=6 solution=2 tokens=320 nll=0.581228 grad_norm=0.9958 step_seconds=7.3
+[20:07:48] epoch 1/1 step 20/64 complete; examples=160/512 answer=5 solution=3 tokens=495 nll=0.611653 grad_norm=0.8331 step_seconds=49.9
+[20:07:48] checkpointed adapter at step 20: /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt
+[20:08:16] epoch 1/1 step 21/64 complete; examples=168/512 answer=4 solution=4 tokens=430 nll=0.468405 grad_norm=1.0873 step_seconds=26.6
+[20:09:34] epoch 1/1 step 22/64 complete; examples=176/512 answer=5 solution=3 tokens=409 nll=0.750456 grad_norm=0.9732 step_seconds=76.5
+[20:10:44] epoch 1/1 step 23/64 complete; examples=184/512 answer=5 solution=3 tokens=337 nll=0.648912 grad_norm=1.2948 step_seconds=68.0
+[20:11:27] epoch 1/1 step 24/64 complete; examples=192/512 answer=3 solution=5 tokens=586 nll=0.635315 grad_norm=0.7316 step_seconds=42.6
+[20:11:39] epoch 1/1 step 25/64 complete; examples=200/512 answer=5 solution=3 tokens=318 nll=0.710351 grad_norm=1.1408 step_seconds=9.3
+[20:11:58] epoch 1/1 step 26/64 complete; examples=208/512 answer=3 solution=5 tokens=522 nll=0.527986 grad_norm=0.8888 step_seconds=18.2
+[20:12:33] epoch 1/1 step 27/64 complete; examples=216/512 answer=4 solution=4 tokens=485 nll=0.484362 grad_norm=0.8045 step_seconds=34.1
+[20:13:31] epoch 1/1 step 28/64 complete; examples=224/512 answer=3 solution=5 tokens=566 nll=0.546231 grad_norm=0.8521 step_seconds=57.3
+[20:15:52] epoch 1/1 step 29/64 complete; examples=232/512 answer=3 solution=5 tokens=455 nll=0.488639 grad_norm=1.0027 step_seconds=139.5
+[20:17:02] epoch 1/1 step 30/64 complete; examples=240/512 answer=4 solution=4 tokens=532 nll=0.433315 grad_norm=0.7934 step_seconds=68.4
+[20:17:03] checkpointed adapter at step 30: /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt
+[20:17:14] epoch 1/1 step 31/64 complete; examples=248/512 answer=4 solution=4 tokens=508 nll=0.624875 grad_norm=0.8095 step_seconds=10.0
+[20:18:43] epoch 1/1 step 32/64 complete; examples=256/512 answer=3 solution=5 tokens=654 nll=0.552415 grad_norm=0.7074 step_seconds=88.5
+[20:19:21] epoch 1/1 step 33/64 complete; examples=264/512 answer=5 solution=3 tokens=375 nll=0.626555 grad_norm=0.9654 step_seconds=36.2
+[20:19:52] epoch 1/1 step 34/64 complete; examples=272/512 answer=5 solution=3 tokens=321 nll=0.631911 grad_norm=1.2739 step_seconds=30.0
+[20:20:39] epoch 1/1 step 35/64 complete; examples=280/512 answer=3 solution=5 tokens=634 nll=0.373305 grad_norm=0.8038 step_seconds=46.3
+[20:22:16] epoch 1/1 step 36/64 complete; examples=288/512 answer=4 solution=4 tokens=525 nll=0.360031 grad_norm=0.6886 step_seconds=95.8
+[20:22:38] epoch 1/1 step 37/64 complete; examples=296/512 answer=3 solution=5 tokens=624 nll=0.474168 grad_norm=0.7908 step_seconds=20.0
+[20:23:32] epoch 1/1 step 38/64 complete; examples=304/512 answer=4 solution=4 tokens=464 nll=0.583904 grad_norm=1.0341 step_seconds=53.0
+[20:24:39] epoch 1/1 step 39/64 complete; examples=312/512 answer=2 solution=6 tokens=787 nll=0.514227 grad_norm=1.0805 step_seconds=64.9
+[20:25:08] epoch 1/1 step 40/64 complete; examples=320/512 answer=5 solution=3 tokens=387 nll=0.367289 grad_norm=1.1826 step_seconds=28.1
+[20:25:08] checkpointed adapter at step 40: /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt
+[20:25:34] epoch 1/1 step 41/64 complete; examples=328/512 answer=5 solution=3 tokens=371 nll=0.757396 grad_norm=1.5226 step_seconds=24.7
+[20:25:49] epoch 1/1 step 42/64 complete; examples=336/512 answer=3 solution=5 tokens=587 nll=0.480535 grad_norm=0.7653 step_seconds=13.4
+[20:26:21] epoch 1/1 step 43/64 complete; examples=344/512 answer=5 solution=3 tokens=375 nll=0.637632 grad_norm=1.4177 step_seconds=31.4
+[20:27:59] epoch 1/1 step 44/64 complete; examples=352/512 answer=1 solution=7 tokens=630 nll=0.432444 grad_norm=1.6048 step_seconds=96.7
+[20:29:17] epoch 1/1 step 45/64 complete; examples=360/512 answer=4 solution=4 tokens=566 nll=0.523478 grad_norm=0.9177 step_seconds=76.8
+[20:30:43] epoch 1/1 step 46/64 complete; examples=368/512 answer=3 solution=5 tokens=622 nll=0.405553 grad_norm=1.0455 step_seconds=83.8
+[20:31:50] epoch 1/1 step 47/64 complete; examples=376/512 answer=2 solution=6 tokens=737 nll=0.421157 grad_norm=0.9809 step_seconds=65.1
+[20:33:23] epoch 1/1 step 48/64 complete; examples=384/512 answer=4 solution=4 tokens=593 nll=0.660984 grad_norm=0.9204 step_seconds=92.3
+[20:37:26] epoch 1/1 step 49/64 complete; examples=392/512 answer=3 solution=5 tokens=590 nll=0.521471 grad_norm=0.9761 step_seconds=241.3
+[20:38:34] epoch 1/1 step 50/64 complete; examples=400/512 answer=4 solution=4 tokens=491 nll=0.388307 grad_norm=1.0308 step_seconds=66.5
+[20:38:34] checkpointed adapter at step 50: /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt
+[20:40:31] epoch 1/1 step 51/64 complete; examples=408/512 answer=0 solution=8 tokens=997 nll=0.421197 grad_norm=0.8187 step_seconds=115.3
+[20:41:03] epoch 1/1 step 52/64 complete; examples=416/512 answer=6 solution=2 tokens=353 nll=0.347276 grad_norm=2.1804 step_seconds=30.6
+[20:43:51] epoch 1/1 step 53/64 complete; examples=424/512 answer=2 solution=6 tokens=991 nll=0.628822 grad_norm=0.6614 step_seconds=168.0
+[20:44:04] epoch 1/1 step 54/64 complete; examples=432/512 answer=6 solution=2 tokens=230 nll=0.632810 grad_norm=2.8201 step_seconds=10.7
+[20:47:05] epoch 1/1 step 55/64 complete; examples=440/512 answer=1 solution=7 tokens=811 nll=0.523015 grad_norm=1.1341 step_seconds=179.5
+[20:49:01] epoch 1/1 step 56/64 complete; examples=448/512 answer=5 solution=3 tokens=450 nll=0.385586 grad_norm=1.1094 step_seconds=114.3
+[20:49:17] epoch 1/1 step 57/64 complete; examples=456/512 answer=7 solution=1 tokens=125 nll=0.524393 grad_norm=3.6664 step_seconds=14.7
+[20:53:37] epoch 1/1 step 58/64 complete; examples=464/512 answer=2 solution=6 tokens=831 nll=0.502314 grad_norm=0.8681 step_seconds=259.4
+[20:54:49] epoch 1/1 step 59/64 complete; examples=472/512 answer=4 solution=4 tokens=573 nll=0.499144 grad_norm=0.8258 step_seconds=69.5
+[20:55:49] epoch 1/1 step 60/64 complete; examples=480/512 answer=5 solution=3 tokens=472 nll=0.293959 grad_norm=1.2110 step_seconds=58.5
+[20:55:50] checkpointed adapter at step 60: /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt
+[20:57:40] epoch 1/1 step 61/64 complete; examples=488/512 answer=4 solution=4 tokens=619 nll=0.658956 grad_norm=1.0633 step_seconds=108.8
+[20:58:13] epoch 1/1 step 62/64 complete; examples=496/512 answer=5 solution=3 tokens=375 nll=0.530643 grad_norm=1.1496 step_seconds=31.2
+[20:59:30] epoch 1/1 step 63/64 complete; examples=504/512 answer=4 solution=4 tokens=684 nll=0.512834 grad_norm=0.7851 step_seconds=76.8
+[20:59:44] epoch 1/1 step 64/64 complete; examples=512/512 answer=6 solution=2 tokens=448 nll=0.385223 grad_norm=2.8507 step_seconds=12.5
+[20:59:48] complete: steps=64 mean_training_nll=0.532920 adapter=/Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt
+[20:59:48] saved result /Users/aarnav/Downloads/neur-spl/runs/localized_train_qwen_eps008_mixed_localized_v1.json

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-08-29T04:05:05.178002+00:00",
+  "model": "/Users/aarnav/Downloads/neur-spl/models/SmolLM2-135M-Instruct",
+  "device": "mps",
+  "dtype": "torch.float32",
+  "split": {
+    "layer_index": 15,
+    "original_width": 1536,
+    "expanded_width": 1544,
+    "original_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "duplicate_indices": [
+      1536,
+      1537,
+      1538,
+      1539,
+      1540,
+      1541,
+      1542,
+      1543
+    ],
+    "added_parameters": 13824
+  },
+  "parameters_before": 134515008,
+  "parameters_after": 134528832,
+  "observed_added_parameters": 13824,
+  "max_absolute_logit_difference": 4.1961669921875e-05,
+  "mean_absolute_logit_difference": 4.526324573816964e-06,
+  "allclose_at_1e-5": false,
+  "allclose_at_1e-4": true
+}

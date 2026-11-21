@@ -1,0 +1,13 @@
+[00:11:37] starting curvature proxy: examples=16 layer=15 probes=8 device=mps dtype=torch.float32
+[00:11:37] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/SmolLM2-135M-Instruct
+[00:11:38] model ready: hidden=576 ffn_width=1536; prepared 16 examples
+[00:11:42] batch 1/8 complete; examples=2/16 target_tokens=260 current_min=-1.023730e-03 batch_seconds=3.4
+[00:11:43] batch 2/8 complete; examples=4/16 target_tokens=485 current_min=-8.003267e-04 batch_seconds=1.0
+[00:11:43] batch 3/8 complete; examples=6/16 target_tokens=649 current_min=-6.046593e-04 batch_seconds=0.6
+[00:11:44] batch 4/8 complete; examples=8/16 target_tokens=790 current_min=-5.727767e-04 batch_seconds=0.6
+[00:11:48] batch 5/8 complete; examples=10/16 target_tokens=1145 current_min=-5.787586e-04 batch_seconds=4.6
+[00:11:49] batch 6/8 complete; examples=12/16 target_tokens=1415 current_min=-5.165309e-04 batch_seconds=1.0
+[00:11:51] batch 7/8 complete; examples=14/16 target_tokens=1573 current_min=-5.189323e-04 batch_seconds=1.7
+[00:11:58] batch 8/8 complete; examples=16/16 target_tokens=2045 current_min=-3.578758e-04 batch_seconds=7.1
+[00:11:59] complete: negative_neurons=1515/1536 best_neuron=492 best_curvature=-3.578758e-04
+[00:11:59] saved /Users/aarnav/Downloads/neur-spl/runs/curvature_proxy_first_scan.json

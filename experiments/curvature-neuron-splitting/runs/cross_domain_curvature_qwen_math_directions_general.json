@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "created_utc": "2026-08-29T23:11:15.779852+00:00",
+    "method": "cross_domain_directional_splitting_curvature",
+    "model": "/Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct",
+    "data": "/Users/aarnav/Downloads/neur-spl/subsets/general_retention_v1/eval_192.jsonl",
+    "math_refinement": "/Users/aarnav/Downloads/neur-spl/runs/curvature_refine_qwen_layer12_refine.json",
+    "layer": 12,
+    "device": "mps",
+    "dtype": "torch.float32",
+    "examples": 192,
+    "tasks": [
+      "arc_challenge",
+      "boolq",
+      "hellaswag"
+    ],
+    "target_tokens": 192,
+    "tokens_by_task": {
+      "hellaswag": 64,
+      "arc_challenge": 64,
+      "boolq": 64
+    },
+    "positions_by_task": {
+      "hellaswag": 13929,
+      "arc_challenge": 6140,
+      "boolq": 12049
+    },
+    "top_k": 8,
+    "epsilon": 0.08,
+    "math_curvature_sum": -50.85523509979248,
+    "general_curvature_sum": -21.056446075439453,
+    "general_curvature_sum_by_task": {
+      "arc_challenge": 34.65901565551758,
+      "boolq": -74.75949096679688,
+      "hellaswag": -23.068857192993164
+    },
+    "quadratic_predicted_general_delta": -0.06738062744140626,
+    "elapsed_seconds": 123.68955779098906
+  },
+  "per_neuron": [
+    {
+      "neuron_index": 4613,
+      "math_curvature": -7.443018913269043,
+      "general_curvature": -8.076089859008789,
+      "curvature_by_task": {
+        "arc_challenge": -17.793668746948242,
+        "boolq": -4.903897762298584,
+        "hellaswag": -1.5307024717330933
+      }
+    },
+    {
+      "neuron_index": 657,
+      "math_curvature": -6.712541580200195,
+      "general_curvature": -1.461461067199707,
+      "curvature_by_task": {
+        "arc_challenge": 4.034646987915039,
+        "boolq": -6.358434677124023,
+        "hellaswag": -2.0605952739715576
+      }
+    },
+    {
+      "neuron_index": 529,
+      "math_curvature": -6.459539890289307,
+      "general_curvature": -1.3908443450927734,
+      "curvature_by_task": {
+        "arc_challenge": 9.506338119506836,
+        "boolq": -10.796910285949707,
+        "hellaswag": -2.881960868835449
+      }
+    },
+    {
+      "neuron_index": 4705,
+      "math_curvature": -6.440393447875977,
+      "general_curvature": -1.9639793634414673,
+      "curvature_by_task": {
+        "arc_challenge": 5.152925491333008,
+        "boolq": -8.148167610168457,
+        "hellaswag": -2.8966963291168213
+      }
+    },
+    {
+      "neuron_index": 2966,
+      "math_curvature": -6.241910457611084,
+      "general_curvature": 0.15972940623760223,
+      "curvature_by_task": {
+        "arc_challenge": 16.998950958251953,
+        "boolq": -13.761320114135742,
+        "hellaswag": -2.7584426403045654
+      }
+    },
+    {
+      "neuron_index": 1161,
+      "math_curvature": -6.204580783843994,
+      "general_curvature": -1.9415473937988281,
+      "curvature_by_task": {
+        "arc_challenge": 6.360804557800293,
+        "boolq": -7.900369644165039,
+        "hellaswag": -4.285077095031738
+      }
+    },
+    {
+      "neuron_index": 1031,
+      "math_curvature": -6.174025058746338,
+      "general_curvature": -1.8116153478622437,
+      "curvature_by_task": {
+        "arc_challenge": 10.402691841125488,
+        "boolq": -12.048173904418945,
+        "hellaswag": -3.7893638610839844
+      }
+    },
+    {
+      "neuron_index": 1304,
+      "math_curvature": -5.179224967956543,
+      "general_curvature": -4.570638656616211,
+      "curvature_by_task": {
+        "arc_challenge": -0.0036733150482177734,
+        "boolq": -10.84222412109375,
+        "hellaswag": -2.866018056869507
+      }
+    }
+  ]
+}

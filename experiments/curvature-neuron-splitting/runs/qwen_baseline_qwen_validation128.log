@@ -1,0 +1,41 @@
+[01:20:05] starting generation evaluation: model=Qwen2.5-0.5B-Instruct examples=128 benchmark=gsm8k device=mps dtype=torch.float32
+[01:20:05] loading model from /Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct
+[01:20:39] batch 1: 8/128, accuracy=0.250, batch_seconds=31.3
+[01:21:39] batch 2: 16/128, accuracy=0.250, batch_seconds=59.4
+[01:23:06] batch 3: 24/128, accuracy=0.167, batch_seconds=86.4
+[01:24:39] batch 4: 32/128, accuracy=0.219, batch_seconds=93.2
+[01:25:54] batch 5: 40/128, accuracy=0.200, batch_seconds=74.8
+[01:27:34] batch 6: 48/128, accuracy=0.229, batch_seconds=100.2
+[01:29:22] batch 7: 56/128, accuracy=0.250, batch_seconds=107.2
+[01:30:56] batch 8: 64/128, accuracy=0.219, batch_seconds=93.9
+[01:32:16] batch 9: 72/128, accuracy=0.236, batch_seconds=80.4
+[01:34:02] batch 10: 80/128, accuracy=0.237, batch_seconds=105.4
+[01:35:28] batch 11: 88/128, accuracy=0.261, batch_seconds=86.2
+[01:37:04] batch 12: 96/128, accuracy=0.260, batch_seconds=95.6
+[01:38:09] batch 13: 104/128, accuracy=0.260, batch_seconds=64.8
+[01:40:22] batch 14: 112/128, accuracy=0.268, batch_seconds=133.0
+[01:41:50] batch 15: 120/128, accuracy=0.267, batch_seconds=87.7
+[01:43:45] batch 16: 128/128, accuracy=0.273, batch_seconds=114.0
+{
+  "schema_version": 1,
+  "created_utc": "2026-08-29T05:43:45.183208+00:00",
+  "benchmark": "gsm8k",
+  "model_path": "/Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct",
+  "model_name": "Qwen2.5-0.5B-Instruct",
+  "data": "/Users/aarnav/Downloads/neur-spl/subsets/dev_v1/validation_128.jsonl",
+  "device": "mps",
+  "dtype": "torch.float32",
+  "seed": 42,
+  "limit": 128,
+  "requested_example_ids": null,
+  "num_examples": 128,
+  "batch_size": 8,
+  "max_input_tokens": 512,
+  "max_new_tokens": 128,
+  "prompt": "Solve the mathematical problem accurately and concisely. Use at most five short lines and do not restate the problem. End with a separate line in the exact form: Final answer: <answer>",
+  "correct": 35,
+  "accuracy": 0.2734375,
+  "elapsed_seconds": 1416.8442840830103,
+  "generated_tokens": 12161
+}
+[01:43:45] complete: saved /Users/aarnav/Downloads/neur-spl/runs/qwen_baseline_qwen_validation128.json

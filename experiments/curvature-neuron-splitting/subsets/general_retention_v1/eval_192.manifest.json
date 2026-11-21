@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-08-29T22:50:38.866459+00:00",
+  "purpose": "paired general-capability retention development subset",
+  "output": "/Users/aarnav/Downloads/neur-spl/subsets/general_retention_v1/eval_192.jsonl",
+  "examples": 192,
+  "examples_per_task": 64,
+  "seed": 42,
+  "sources": {
+    "hellaswag": {
+      "repo": "Rowan/hellaswag",
+      "revision": "218ec52e09a7e7462a5400043bb9a69a41d06b76",
+      "file": "data/validation-00000-of-00001.parquet",
+      "available_examples": 10042,
+      "selected_examples": 64,
+      "sample_seed": 42
+    },
+    "arc_challenge": {
+      "repo": "allenai/ai2_arc",
+      "revision": "210d026faf9955653af8916fad021475a3f00453",
+      "file": "ARC-Challenge/validation-00000-of-00001.parquet",
+      "available_examples": 299,
+      "selected_examples": 64,
+      "sample_seed": 43
+    },
+    "boolq": {
+      "repo": "google/boolq",
+      "revision": "35b264d03638db9f4ce671b711558bf7ff0f80d5",
+      "file": "data/validation-00000-of-00001.parquet",
+      "available_examples": 3270,
+      "selected_examples": 64,
+      "sample_seed": 44
+    }
+  }
+}

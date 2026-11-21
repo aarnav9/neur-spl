@@ -1,0 +1,52 @@
+We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+{
+  "schema_version": 1,
+  "created_utc": "2026-08-29T05:59:30.694017+00:00",
+  "model": "/Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct",
+  "refinement": "/Users/aarnav/Downloads/neur-spl/runs/curvature_refine_qwen_layer12_refine.json",
+  "selected_neurons": [
+    529,
+    657,
+    1031,
+    1161,
+    1304,
+    2966,
+    4613,
+    4705
+  ],
+  "device": "mps",
+  "dtype": "torch.float32",
+  "split": {
+    "layer_index": 12,
+    "original_width": 4864,
+    "expanded_width": 4872,
+    "original_indices": [
+      529,
+      657,
+      1031,
+      1161,
+      1304,
+      2966,
+      4613,
+      4705
+    ],
+    "duplicate_indices": [
+      4864,
+      4865,
+      4866,
+      4867,
+      4868,
+      4869,
+      4870,
+      4871
+    ],
+    "added_parameters": 21504
+  },
+  "parameters_before": 494032768,
+  "parameters_after": 494054272,
+  "observed_added_parameters": 21504,
+  "max_absolute_logit_difference": 2.002716064453125e-05,
+  "mean_absolute_logit_difference": 2.0895008674415294e-06,
+  "allclose_at_1e-5": false,
+  "allclose_at_1e-4": true
+}

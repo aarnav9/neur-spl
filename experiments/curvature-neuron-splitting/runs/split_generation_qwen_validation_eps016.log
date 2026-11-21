@@ -1,0 +1,23 @@
+[02:40:24] starting paired generation: benchmark=gsm8k examples=128 top_k=8 epsilon=0.16 device=mps dtype=torch.float32
+[02:40:24] refinement input: /Users/aarnav/Downloads/neur-spl/runs/curvature_refine_qwen_layer12_refine.json
+[02:40:24] reusing compatible baseline: /Users/aarnav/Downloads/neur-spl/runs/qwen_baseline_qwen_validation128.json (35/128 correct)
+[02:40:24] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/Qwen2.5-0.5B-Instruct
+[02:40:29] original generation complete: correct=35/128 accuracy=0.2734
+[02:40:57] curvature_split batch 1/16 complete; examples=8/128 accuracy=0.0000 batch_seconds=27.7
+[02:42:03] curvature_split batch 2/16 complete; examples=16/128 accuracy=0.0625 batch_seconds=65.7
+[02:43:50] curvature_split batch 3/16 complete; examples=24/128 accuracy=0.0417 batch_seconds=106.5
+[02:45:23] curvature_split batch 4/16 complete; examples=32/128 accuracy=0.0625 batch_seconds=92.8
+[02:46:37] curvature_split batch 5/16 complete; examples=40/128 accuracy=0.0750 batch_seconds=71.1
+[02:47:41] curvature_split batch 6/16 complete; examples=48/128 accuracy=0.0625 batch_seconds=63.4
+[02:48:53] curvature_split batch 7/16 complete; examples=56/128 accuracy=0.0536 batch_seconds=71.7
+[02:50:16] curvature_split batch 8/16 complete; examples=64/128 accuracy=0.0469 batch_seconds=82.1
+[02:51:51] curvature_split batch 9/16 complete; examples=72/128 accuracy=0.0694 batch_seconds=89.4
+[02:53:17] curvature_split batch 10/16 complete; examples=80/128 accuracy=0.0750 batch_seconds=85.4
+[02:54:35] curvature_split batch 11/16 complete; examples=88/128 accuracy=0.1023 batch_seconds=73.7
+[02:55:45] curvature_split batch 12/16 complete; examples=96/128 accuracy=0.1250 batch_seconds=69.5
+[02:56:53] curvature_split batch 13/16 complete; examples=104/128 accuracy=0.1346 batch_seconds=67.4
+[02:58:06] curvature_split batch 14/16 complete; examples=112/128 accuracy=0.1429 batch_seconds=73.3
+[02:59:23] curvature_split batch 15/16 complete; examples=120/128 accuracy=0.1500 batch_seconds=76.6
+[03:00:42] curvature_split batch 16/16 complete; examples=128/128 accuracy=0.1562 batch_seconds=78.9
+[03:00:42] complete: original=35/128 split=20/128 split_only=7 original_only=22
+[03:00:42] saved /Users/aarnav/Downloads/neur-spl/runs/split_generation_qwen_validation_eps016.json

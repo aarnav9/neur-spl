@@ -1,0 +1,34 @@
+# Local environments and caches
+.DS_Store
+.venv/
+.venv-*/
+.hf-cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+.aws/
+
+# Downloaded assets and binary experiment payloads
+/models/
+/datasets/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+wandb/
+/tmp/
+/work/
+
+# Preserve research records even when a parent repository ignores runs/.
+!/runs/
+/runs/*
+!/runs/*.json
+!/runs/*.log

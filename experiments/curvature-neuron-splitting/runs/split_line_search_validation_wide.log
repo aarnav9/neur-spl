@@ -1,0 +1,142 @@
+[00:28:46] starting split line search: top_k=8 layer=15 epsilons=[0.0, 0.2, 0.3, 0.4, 0.6, 0.8, 1.0] examples=32 device=mps dtype=torch.float32
+[00:28:46] refinement input: /Users/aarnav/Downloads/neur-spl/runs/curvature_refine_first_refine.json
+[00:28:46] selected neurons: [492, 934, 49, 1025, 1350, 1429, 322, 381]
+[00:28:46] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/SmolLM2-135M-Instruct
+[00:28:47] original batch 1/16 complete; examples=2/32 running_nll=1.11478107 batch_seconds=0.8
+[00:28:47] original batch 2/16 complete; examples=4/32 running_nll=1.10739219 batch_seconds=0.2
+[00:28:48] original batch 3/16 complete; examples=6/32 running_nll=1.18241759 batch_seconds=0.2
+[00:28:48] original batch 4/16 complete; examples=8/32 running_nll=1.12368483 batch_seconds=0.3
+[00:28:48] original batch 5/16 complete; examples=10/32 running_nll=1.25816283 batch_seconds=0.3
+[00:28:49] original batch 6/16 complete; examples=12/32 running_nll=1.35603440 batch_seconds=0.3
+[00:28:49] original batch 7/16 complete; examples=14/32 running_nll=1.33731407 batch_seconds=0.2
+[00:28:49] original batch 8/16 complete; examples=16/32 running_nll=1.34207654 batch_seconds=0.2
+[00:28:49] original batch 9/16 complete; examples=18/32 running_nll=1.33832730 batch_seconds=0.2
+[00:28:50] original batch 10/16 complete; examples=20/32 running_nll=1.29800026 batch_seconds=0.5
+[00:28:50] original batch 11/16 complete; examples=22/32 running_nll=1.25414455 batch_seconds=0.4
+[00:28:50] original batch 12/16 complete; examples=24/32 running_nll=1.24748082 batch_seconds=0.3
+[00:28:51] original batch 13/16 complete; examples=26/32 running_nll=1.22611573 batch_seconds=0.4
+[00:28:51] original batch 14/16 complete; examples=28/32 running_nll=1.22832060 batch_seconds=0.3
+[00:28:51] original batch 15/16 complete; examples=30/32 running_nll=1.23539639 batch_seconds=0.3
+[00:28:52] original batch 16/16 complete; examples=32/32 running_nll=1.25834763 batch_seconds=0.3
+[00:28:52] original model complete: mean_nll=1.25834763
+[00:28:52] epsilon=0 batch 1/16 complete; examples=2/32 running_nll=1.11478123 batch_seconds=0.1
+[00:28:52] epsilon=0 batch 2/16 complete; examples=4/32 running_nll=1.10739246 batch_seconds=0.1
+[00:28:52] epsilon=0 batch 3/16 complete; examples=6/32 running_nll=1.18241767 batch_seconds=0.1
+[00:28:52] epsilon=0 batch 4/16 complete; examples=8/32 running_nll=1.12368487 batch_seconds=0.1
+[00:28:52] epsilon=0 batch 5/16 complete; examples=10/32 running_nll=1.25816274 batch_seconds=0.2
+[00:28:52] epsilon=0 batch 6/16 complete; examples=12/32 running_nll=1.35603424 batch_seconds=0.2
+[00:28:53] epsilon=0 batch 7/16 complete; examples=14/32 running_nll=1.33731390 batch_seconds=0.2
+[00:28:53] epsilon=0 batch 8/16 complete; examples=16/32 running_nll=1.34207641 batch_seconds=0.1
+[00:28:53] epsilon=0 batch 9/16 complete; examples=18/32 running_nll=1.33832718 batch_seconds=0.1
+[00:28:53] epsilon=0 batch 10/16 complete; examples=20/32 running_nll=1.29800008 batch_seconds=0.4
+[00:28:53] epsilon=0 batch 11/16 complete; examples=22/32 running_nll=1.25414437 batch_seconds=0.2
+[00:28:54] epsilon=0 batch 12/16 complete; examples=24/32 running_nll=1.24748071 batch_seconds=0.2
+[00:28:54] epsilon=0 batch 13/16 complete; examples=26/32 running_nll=1.22611555 batch_seconds=0.2
+[00:28:54] epsilon=0 batch 14/16 complete; examples=28/32 running_nll=1.22832035 batch_seconds=0.1
+[00:28:54] epsilon=0 batch 15/16 complete; examples=30/32 running_nll=1.23539618 batch_seconds=0.2
+[00:28:54] epsilon=0 batch 16/16 complete; examples=32/32 running_nll=1.25834744 batch_seconds=0.2
+[00:28:54] epsilon=0 complete: mean_nll=1.25834744 delta_original=-1.90591919e-07 predicted=-0.00000000e+00
+[00:28:54] epsilon=0.2 batch 1/16 complete; examples=2/32 running_nll=1.10176755 batch_seconds=0.1
+[00:28:55] epsilon=0.2 batch 2/16 complete; examples=4/32 running_nll=1.09127729 batch_seconds=0.1
+[00:28:55] epsilon=0.2 batch 3/16 complete; examples=6/32 running_nll=1.16633559 batch_seconds=0.1
+[00:28:55] epsilon=0.2 batch 4/16 complete; examples=8/32 running_nll=1.10898000 batch_seconds=0.1
+[00:28:55] epsilon=0.2 batch 5/16 complete; examples=10/32 running_nll=1.24324047 batch_seconds=0.2
+[00:28:55] epsilon=0.2 batch 6/16 complete; examples=12/32 running_nll=1.34074111 batch_seconds=0.2
+[00:28:55] epsilon=0.2 batch 7/16 complete; examples=14/32 running_nll=1.32283080 batch_seconds=0.2
+[00:28:56] epsilon=0.2 batch 8/16 complete; examples=16/32 running_nll=1.32760992 batch_seconds=0.1
+[00:28:56] epsilon=0.2 batch 9/16 complete; examples=18/32 running_nll=1.32380189 batch_seconds=0.1
+[00:28:56] epsilon=0.2 batch 10/16 complete; examples=20/32 running_nll=1.28376174 batch_seconds=0.4
+[00:28:56] epsilon=0.2 batch 11/16 complete; examples=22/32 running_nll=1.24030618 batch_seconds=0.2
+[00:28:56] epsilon=0.2 batch 12/16 complete; examples=24/32 running_nll=1.23354497 batch_seconds=0.2
+[00:28:57] epsilon=0.2 batch 13/16 complete; examples=26/32 running_nll=1.21287731 batch_seconds=0.2
+[00:28:57] epsilon=0.2 batch 14/16 complete; examples=28/32 running_nll=1.21463987 batch_seconds=0.1
+[00:28:57] epsilon=0.2 batch 15/16 complete; examples=30/32 running_nll=1.22196859 batch_seconds=0.2
+[00:28:57] epsilon=0.2 batch 16/16 complete; examples=32/32 running_nll=1.24459277 batch_seconds=0.2
+[00:28:57] epsilon=0.2 complete: mean_nll=1.24459277 delta_original=-1.37548549e-02 predicted=-1.29993603e-02
+[00:28:57] epsilon=0.3 batch 1/16 complete; examples=2/32 running_nll=1.08813411 batch_seconds=0.1
+[00:28:57] epsilon=0.3 batch 2/16 complete; examples=4/32 running_nll=1.07482827 batch_seconds=0.1
+[00:28:58] epsilon=0.3 batch 3/16 complete; examples=6/32 running_nll=1.15007371 batch_seconds=0.1
+[00:28:58] epsilon=0.3 batch 4/16 complete; examples=8/32 running_nll=1.09388515 batch_seconds=0.1
+[00:28:58] epsilon=0.3 batch 5/16 complete; examples=10/32 running_nll=1.22745077 batch_seconds=0.2
+[00:28:58] epsilon=0.3 batch 6/16 complete; examples=12/32 running_nll=1.32435954 batch_seconds=0.2
+[00:28:58] epsilon=0.3 batch 7/16 complete; examples=14/32 running_nll=1.30728217 batch_seconds=0.2
+[00:28:58] epsilon=0.3 batch 8/16 complete; examples=16/32 running_nll=1.31196206 batch_seconds=0.1
+[00:28:59] epsilon=0.3 batch 9/16 complete; examples=18/32 running_nll=1.30799816 batch_seconds=0.1
+[00:28:59] epsilon=0.3 batch 10/16 complete; examples=20/32 running_nll=1.26813576 batch_seconds=0.4
+[00:28:59] epsilon=0.3 batch 11/16 complete; examples=22/32 running_nll=1.22522615 batch_seconds=0.2
+[00:28:59] epsilon=0.3 batch 12/16 complete; examples=24/32 running_nll=1.21831886 batch_seconds=0.2
+[00:28:59] epsilon=0.3 batch 13/16 complete; examples=26/32 running_nll=1.19841961 batch_seconds=0.2
+[00:29:00] epsilon=0.3 batch 14/16 complete; examples=28/32 running_nll=1.19963700 batch_seconds=0.1
+[00:29:00] epsilon=0.3 batch 15/16 complete; examples=30/32 running_nll=1.20731680 batch_seconds=0.2
+[00:29:00] epsilon=0.3 batch 16/16 complete; examples=32/32 running_nll=1.22954540 batch_seconds=0.2
+[00:29:00] epsilon=0.3 complete: mean_nll=1.22954540 delta_original=-2.88022242e-02 predicted=-2.92485606e-02
+[00:29:00] epsilon=0.4 batch 1/16 complete; examples=2/32 running_nll=1.07360098 batch_seconds=0.1
+[00:29:00] epsilon=0.4 batch 2/16 complete; examples=4/32 running_nll=1.05780116 batch_seconds=0.1
+[00:29:00] epsilon=0.4 batch 3/16 complete; examples=6/32 running_nll=1.13369003 batch_seconds=0.1
+[00:29:00] epsilon=0.4 batch 4/16 complete; examples=8/32 running_nll=1.07820598 batch_seconds=0.1
+[00:29:01] epsilon=0.4 batch 5/16 complete; examples=10/32 running_nll=1.21014244 batch_seconds=0.2
+[00:29:01] epsilon=0.4 batch 6/16 complete; examples=12/32 running_nll=1.30601458 batch_seconds=0.2
+[00:29:01] epsilon=0.4 batch 7/16 complete; examples=14/32 running_nll=1.28982581 batch_seconds=0.2
+[00:29:01] epsilon=0.4 batch 8/16 complete; examples=16/32 running_nll=1.29422026 batch_seconds=0.1
+[00:29:01] epsilon=0.4 batch 9/16 complete; examples=18/32 running_nll=1.28990190 batch_seconds=0.1
+[00:29:02] epsilon=0.4 batch 10/16 complete; examples=20/32 running_nll=1.25004971 batch_seconds=0.4
+[00:29:02] epsilon=0.4 batch 11/16 complete; examples=22/32 running_nll=1.20803779 batch_seconds=0.2
+[00:29:02] epsilon=0.4 batch 12/16 complete; examples=24/32 running_nll=1.20091336 batch_seconds=0.2
+[00:29:02] epsilon=0.4 batch 13/16 complete; examples=26/32 running_nll=1.18192113 batch_seconds=0.2
+[00:29:02] epsilon=0.4 batch 14/16 complete; examples=28/32 running_nll=1.18243440 batch_seconds=0.1
+[00:29:02] epsilon=0.4 batch 15/16 complete; examples=30/32 running_nll=1.19059763 batch_seconds=0.2
+[00:29:03] epsilon=0.4 batch 16/16 complete; examples=32/32 running_nll=1.21228053 batch_seconds=0.2
+[00:29:03] epsilon=0.4 complete: mean_nll=1.21228053 delta_original=-4.60670961e-02 predicted=-5.19974411e-02
+[00:29:03] epsilon=0.6 batch 1/16 complete; examples=2/32 running_nll=1.05771121 batch_seconds=0.1
+[00:29:03] epsilon=0.6 batch 2/16 complete; examples=4/32 running_nll=1.04031076 batch_seconds=0.1
+[00:29:03] epsilon=0.6 batch 3/16 complete; examples=6/32 running_nll=1.11730198 batch_seconds=0.1
+[00:29:03] epsilon=0.6 batch 4/16 complete; examples=8/32 running_nll=1.05979255 batch_seconds=0.1
+[00:29:03] epsilon=0.6 batch 5/16 complete; examples=10/32 running_nll=1.18489908 batch_seconds=0.2
+[00:29:04] epsilon=0.6 batch 6/16 complete; examples=12/32 running_nll=1.27696864 batch_seconds=0.2
+[00:29:04] epsilon=0.6 batch 7/16 complete; examples=14/32 running_nll=1.26292368 batch_seconds=0.2
+[00:29:04] epsilon=0.6 batch 8/16 complete; examples=16/32 running_nll=1.26649842 batch_seconds=0.1
+[00:29:04] epsilon=0.6 batch 9/16 complete; examples=18/32 running_nll=1.26060368 batch_seconds=0.1
+[00:29:04] epsilon=0.6 batch 10/16 complete; examples=20/32 running_nll=1.22037762 batch_seconds=0.3
+[00:29:04] epsilon=0.6 batch 11/16 complete; examples=22/32 running_nll=1.18133350 batch_seconds=0.2
+[00:29:05] epsilon=0.6 batch 12/16 complete; examples=24/32 running_nll=1.17405754 batch_seconds=0.2
+[00:29:05] epsilon=0.6 batch 13/16 complete; examples=26/32 running_nll=1.15678971 batch_seconds=0.2
+[00:29:05] epsilon=0.6 batch 14/16 complete; examples=28/32 running_nll=1.15619299 batch_seconds=0.1
+[00:29:05] epsilon=0.6 batch 15/16 complete; examples=30/32 running_nll=1.16530590 batch_seconds=0.2
+[00:29:05] epsilon=0.6 batch 16/16 complete; examples=32/32 running_nll=1.18552812 batch_seconds=0.2
+[00:29:05] epsilon=0.6 complete: mean_nll=1.18552812 delta_original=-7.28195080e-02 predicted=-1.16994242e-01
+[00:29:05] epsilon=0.8 batch 1/16 complete; examples=2/32 running_nll=1.08545169 batch_seconds=0.1
+[00:29:06] epsilon=0.8 batch 2/16 complete; examples=4/32 running_nll=1.06956044 batch_seconds=0.1
+[00:29:06] epsilon=0.8 batch 3/16 complete; examples=6/32 running_nll=1.14221615 batch_seconds=0.1
+[00:29:06] epsilon=0.8 batch 4/16 complete; examples=8/32 running_nll=1.07883462 batch_seconds=0.1
+[00:29:06] epsilon=0.8 batch 5/16 complete; examples=10/32 running_nll=1.19370641 batch_seconds=0.2
+[00:29:06] epsilon=0.8 batch 6/16 complete; examples=12/32 running_nll=1.27898482 batch_seconds=0.2
+[00:29:06] epsilon=0.8 batch 7/16 complete; examples=14/32 running_nll=1.26917440 batch_seconds=0.2
+[00:29:06] epsilon=0.8 batch 8/16 complete; examples=16/32 running_nll=1.27354771 batch_seconds=0.1
+[00:29:07] epsilon=0.8 batch 9/16 complete; examples=18/32 running_nll=1.26582396 batch_seconds=0.1
+[00:29:07] epsilon=0.8 batch 10/16 complete; examples=20/32 running_nll=1.22520816 batch_seconds=0.4
+[00:29:07] epsilon=0.8 batch 11/16 complete; examples=22/32 running_nll=1.18955333 batch_seconds=0.2
+[00:29:07] epsilon=0.8 batch 12/16 complete; examples=24/32 running_nll=1.18278645 batch_seconds=0.2
+[00:29:08] epsilon=0.8 batch 13/16 complete; examples=26/32 running_nll=1.16652879 batch_seconds=0.2
+[00:29:08] epsilon=0.8 batch 14/16 complete; examples=28/32 running_nll=1.16532704 batch_seconds=0.1
+[00:29:08] epsilon=0.8 batch 15/16 complete; examples=30/32 running_nll=1.17486150 batch_seconds=0.2
+[00:29:08] epsilon=0.8 batch 16/16 complete; examples=32/32 running_nll=1.19397970 batch_seconds=0.2
+[00:29:08] epsilon=0.8 complete: mean_nll=1.19397970 delta_original=-6.43679266e-02 predicted=-2.07989764e-01
+[00:29:08] epsilon=1 batch 1/16 complete; examples=2/32 running_nll=1.18813295 batch_seconds=0.1
+[00:29:08] epsilon=1 batch 2/16 complete; examples=4/32 running_nll=1.16425231 batch_seconds=0.1
+[00:29:08] epsilon=1 batch 3/16 complete; examples=6/32 running_nll=1.23016049 batch_seconds=0.1
+[00:29:09] epsilon=1 batch 4/16 complete; examples=8/32 running_nll=1.15667276 batch_seconds=0.1
+[00:29:09] epsilon=1 batch 5/16 complete; examples=10/32 running_nll=1.25752316 batch_seconds=0.2
+[00:29:09] epsilon=1 batch 6/16 complete; examples=12/32 running_nll=1.33209204 batch_seconds=0.2
+[00:29:09] epsilon=1 batch 7/16 complete; examples=14/32 running_nll=1.32459198 batch_seconds=0.2
+[00:29:09] epsilon=1 batch 8/16 complete; examples=16/32 running_nll=1.33235622 batch_seconds=0.2
+[00:29:09] epsilon=1 batch 9/16 complete; examples=18/32 running_nll=1.32509547 batch_seconds=0.1
+[00:29:10] epsilon=1 batch 10/16 complete; examples=20/32 running_nll=1.28364546 batch_seconds=0.4
+[00:29:10] epsilon=1 batch 11/16 complete; examples=22/32 running_nll=1.25182783 batch_seconds=0.2
+[00:29:10] epsilon=1 batch 12/16 complete; examples=24/32 running_nll=1.24556859 batch_seconds=0.2
+[00:29:10] epsilon=1 batch 13/16 complete; examples=26/32 running_nll=1.22968284 batch_seconds=0.2
+[00:29:10] epsilon=1 batch 14/16 complete; examples=28/32 running_nll=1.22805700 batch_seconds=0.1
+[00:29:11] epsilon=1 batch 15/16 complete; examples=30/32 running_nll=1.23749341 batch_seconds=0.2
+[00:29:11] epsilon=1 batch 16/16 complete; examples=32/32 running_nll=1.25687234 batch_seconds=0.2
+[00:29:11] epsilon=1 complete: mean_nll=1.25687234 delta_original=-1.47529200e-03 predicted=-3.24984007e-01
+[00:29:11] complete: best_epsilon=0.6 best_nll=1.18552812 best_delta=-7.28195080e-02
+[00:29:11] saved /Users/aarnav/Downloads/neur-spl/runs/split_line_search_validation_wide.json

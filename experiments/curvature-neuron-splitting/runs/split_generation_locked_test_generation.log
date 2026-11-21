@@ -1,0 +1,8 @@
+[00:49:56] starting paired generation: benchmark=gsm8k examples=16 top_k=8 epsilon=0.65 device=mps dtype=torch.float32
+[00:49:56] refinement input: /Users/aarnav/Downloads/neur-spl/runs/curvature_refine_first_refine.json
+[00:49:56] loading tokenizer and model from /Users/aarnav/Downloads/neur-spl/models/SmolLM2-135M-Instruct
+[00:50:19] original batch 1/1 complete; examples=16/16 accuracy=0.0625 batch_seconds=21.5
+[00:50:19] original generation complete: correct=1/16 accuracy=0.0625
+[00:50:34] curvature_split batch 1/1 complete; examples=16/16 accuracy=0.0000 batch_seconds=15.1
+[00:50:34] complete: original=1/16 split=0/16 split_only=0 original_only=1
+[00:50:34] saved /Users/aarnav/Downloads/neur-spl/runs/split_generation_locked_test_generation.json

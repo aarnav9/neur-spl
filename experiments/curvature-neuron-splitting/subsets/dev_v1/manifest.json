@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "source": "openai/gsm8k:main",
+  "policy": {
+    "curvature_is_subset_of_train": true,
+    "validation_is_disjoint_from_train": true,
+    "test_uses_original_test_split": true,
+    "full_source_dataset_retained": true
+  },
+  "files": {
+    "train_512.jsonl": 512,
+    "curvature_64.jsonl": 64,
+    "validation_128.jsonl": 128,
+    "test_32.jsonl": 32
+  }
+}
