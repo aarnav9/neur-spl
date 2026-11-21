@@ -32,3 +32,7 @@ wandb/
 /runs/*
 !/runs/*.json
 !/runs/*.log
+
+# Preserve the two small archived experiment checkpoints.
+!/runs/curvature_proxy_qwen_layer12_scan_b1.checkpoint.pt
+!/runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt

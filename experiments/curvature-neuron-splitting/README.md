@@ -59,6 +59,9 @@ holdout: several named test/validation subsets have already been inspected.
 
 Run longer experiments in a foreground Terminal using the scripts in `scripts/`.
 They write into `runs/`; choose a fresh run tag to preserve archived results.
-Model weights, binary checkpoints/adapters, full datasets, virtual environments,
-caches, and temporary files are excluded. Archived JSON and text logs retain
+Downloaded model weights, full datasets, virtual environments, caches, and
+temporary files are excluded. Two small archived binaries are included:
+`runs/curvature_proxy_qwen_layer12_scan_b1.checkpoint.pt` (scan resume state) and
+`runs/localized_train_qwen_eps008_mixed_localized_v1.adapter.pt` (trained split
+adapter). Other binary checkpoints/adapters remain ignored. Archived JSON and text logs retain
 the original local paths as provenance; those paths are not portable commands.
